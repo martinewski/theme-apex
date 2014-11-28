@@ -342,7 +342,7 @@ div.header div.site-description h1 {
 }
 div.header div.site-description p {
   font-size: 14px;
-  line-height: 1px;
+  line-height: 1.00;
   color: ##292929;
 }
 div.header div.site-description ul {
