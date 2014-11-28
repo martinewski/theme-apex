@@ -2,6 +2,7 @@
 @import url(http://postach.io/static/themes/_assets/bootstrap/css/bootstrap-responsive.min.css);
 @import url(http://postach.io/static/themes/_assets/fontawesome/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Halant:300,400);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
 /*---------------------------------------------------
     LESS Elements 0.9.1
@@ -180,8 +181,8 @@ html {
   font-size: 100%;
 }
 body {
-  line-height: 1.65;
-  font-family: 'Lora', serif;
+  line-height: 2.00;
+  font-family: 'Halant', serif;
   height: 100%;
   width: 100%;
 }
@@ -417,7 +418,8 @@ div.post h3 {
 }
 div.post p {
   font-size: 20px;
-  line-height: 30px;
+  #line-height: 30px;
+  line-height: 2.00;
   font-weight: 300;
   margin: 0;
   padding: 10px 0 10px 0;
