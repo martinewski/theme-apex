@@ -154,15 +154,15 @@
                 <p class="date">{{ post.created_at|format_date }}</p>
               </div>
               <div class="info-right">
-                <p class="read-more"><a href="{{ post.permalink }}">Read More &raquo;</a></p>
+                <p class="read-more"><a href="{{ post.permalink }}">Ler mais &raquo;</a></p>
               </div>
             </div>
           </div>
           {% endfor %}
           {% if not is_tag %}
           <div class="pagination span6">
-            {% if pagination.prev %}<a href="{{ pagination.prev }}" class="post-prev">&larr; View Previous Posts</a>{% endif %}
-            {% if pagination.next %}<a href="{{ pagination.next }}" class="post-next">View More Posts &rarr;</a>{% endif %}
+            {% if pagination.prev %}<a href="{{ pagination.prev }}" class="post-prev">&larr; Ver artigos anteriores</a>{% endif %}
+            {% if pagination.next %}<a href="{{ pagination.next }}" class="post-next">Ver mais posts &rarr;</a>{% endif %}
           </div>
           {% endif %}
           {% else %}
