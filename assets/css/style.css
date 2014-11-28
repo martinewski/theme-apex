@@ -342,8 +342,8 @@ div.header div.site-description h1 {
 }
 div.header div.site-description p {
   font-size: 16px;
-  line-height: 28px;
-  color: #ffffff;
+  #line-height: 28px;
+  color: #AAA;
 }
 div.header div.site-description ul {
   padding-top: 30px;
