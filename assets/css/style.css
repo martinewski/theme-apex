@@ -4,6 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Halant:300,400);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 /*---------------------------------------------------
     LESS Elements 0.9.1
   ---------------------------------------------------
@@ -182,7 +183,7 @@ html {
 }
 body {
   line-height: 2.00;
-  font-family: 'Halant', serif;
+  font-family: 'Libre Baskerville', serif;
   height: 100%;
   width: 100%;
 }
