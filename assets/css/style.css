@@ -261,12 +261,12 @@ div.header div.gradient {
   top: 50%;
   left: 0;
   width: 100%;
-  background: transparent;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000000), color-stop(1, transparent));
-  background: -ms-linear-gradient(bottom, #000000, transparent);
-  background: -moz-linear-gradient(center bottom, #000000 0%, transparent 100%);
-  background: -o-linear-gradient(transparent, #000000);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#000000', GradientType=0);
+  background: #000;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFF), color-stop(1, transparent));
+  background: -ms-linear-gradient(bottom, #FFF, transparent);
+  background: -moz-linear-gradient(center bottom, #FFF 0%, transparent 100%);
+  background: -o-linear-gradient(transparent, #FFF);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#FFF', GradientType=0);
 }
 div.header div.title {
   position: absolute;
