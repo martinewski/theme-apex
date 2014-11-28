@@ -261,7 +261,7 @@ div.header div.gradient {
   top: 50%;
   left: 0;
   width: 100%;
-  background: #000;
+  background: transparent;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFF), color-stop(1, transparent));
   background: -ms-linear-gradient(bottom, #FFF, transparent);
   background: -moz-linear-gradient(center bottom, #FFF 0%, transparent 100%);
